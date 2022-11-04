@@ -148,7 +148,7 @@ function App() {
               logoSize: '24px',
             },
             progressBarOption: {
-              rateText: '45%',
+              rateText: '70%',
               backgroundColor: `${color.lightGrey}`,
               colorTo: `${color.mainColor}`,
               width: '100%',
@@ -163,7 +163,7 @@ function App() {
               logoSize: '24px',
             },
             progressBarOption: {
-              rateText: '30%',
+              rateText: '65%',
               backgroundColor: `${color.lightGrey}`,
               colorTo: `${color.mainColor}`,
               colorFrom: `${color.pointColor}`,
@@ -180,7 +180,7 @@ function App() {
               logoSize: '24px',
             },
             progressBarOption: {
-              rateText: '85%',
+              rateText: '70%',
               rateTextColor: `${color.lightGrey}`,
               backgroundColor: `${color.lightGrey}`,
               colorTo: `${color.mainColor}`,
@@ -196,7 +196,7 @@ function App() {
               logoSize: '24px',
             },
             progressBarOption: {
-              rateText: '85%',
+              rateText: '40%',
               rateTextColor: `${color.lightGrey}`,
               backgroundColor: `${color.lightGrey}`,
               colorTo: `${color.mainColor}`,
@@ -212,7 +212,7 @@ function App() {
               logoSize: '24px',
             },
             progressBarOption: {
-              rateText: '85%',
+              rateText: '20%',
               rateTextColor: `${color.lightGrey}`,
               backgroundColor: `${color.lightGrey}`,
               colorTo: `${color.mainColor}`,
@@ -247,19 +247,19 @@ function App() {
        * If you want to view internal of DisplayPortfolioInstruction,
        * go to the './src/common/instruction/DisplayPortfolioInstruction.tsx'
        */}
-      <DisplayPortfolioInstruction />
+      {/* <DisplayPortfolioInstruction /> */}
 
       {/**
        * @component Carousel
        * {@link https://github.com/modern-agile-team/dev-portfolio#carousel}
        */}
-      <CarouselWrap>
+      {/* <CarouselWrap>
         <Carousel id="['Carousel', 'bx:carousel']">
           <Item title="1" />
           <Item title="2" />
           <Item title="3" />
         </Carousel>
-      </CarouselWrap>
+      </CarouselWrap> */}
 
       {/**
        * @component Gallery
@@ -279,7 +279,7 @@ function App() {
        * @component Masonry
        * {@link https://github.com/modern-agile-team/dev-portfolio#masonry}
        */}
-      <Masonry id="['Masonry', 'ri:layout-masonry-line']">
+      {/* <Masonry id="['Masonry', 'ri:layout-masonry-line']">
         <Image src="https://picsum.photos/600/600/?random" />
         <Image src="https://picsum.photos/600/900/?random" />
         <Image src="https://picsum.photos/300/400/?random" />
@@ -293,7 +293,7 @@ function App() {
         <Image src="https://picsum.photos/600/500/?random" />
         <Image src="https://picsum.photos/500/600/?random" />
         <Image src="https://picsum.photos/700/600/?random" />
-      </Masonry>
+      </Masonry> */}
 
       {/**
        * @component VisitorCounter
